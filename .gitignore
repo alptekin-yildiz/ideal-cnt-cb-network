@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editor / OS noise
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Local generator output (users write their own CSVs here); keep curated
+# data under data/reference/ and data/article_evidence/ tracked explicitly.
+*.out.csv
+/data/processed/
+/scratch/

@@ -1,0 +1,5 @@
+group,system,mechanism,alpha_nm_per_strain,n_ok,n_total,GF_R_median,GF_R_p25,GF_R_p75,GF_R_IQR_label,GF_sigma_median,GF_geom_median,R2_lnG_median,linearity_flag_fraction,source_summary_csv
+global_cc_alpha_sweep,Pure CNT,global CNT-CNT opening,5,300,300,1.6170586,1.5241506,1.720988,1.52-1.72,-0.099272271,1.7163309,0.99991069,0.25333333,data/processed/gf/gf_simmons_gf_globalcc_cnt_a5_n300.csv
+global_cc_alpha_sweep,Pure CNT,global CNT-CNT opening,10,300,300,3.0029644,2.8395696,3.1673186,2.84-3.17,1.2866335,1.7163309,0.99991563,0,data/processed/gf/gf_simmons_gf_globalcc_cnt_a10_n300.csv
+global_cc_alpha_sweep,Pure CNT,global CNT-CNT opening,20,300,300,5.8113133,5.5586625,6.0870944,5.56-6.09,4.0949824,1.7163309,0.9998752,0,data/processed/gf/gf_simmons_gf_globalcc_cnt_a20_n300.csv
+global_cc_alpha_sweep,Pure CNT,global CNT-CNT opening,40,300,300,11.627747,11.125401,12.043014,11.13-12.04,9.9114161,1.7163309,0.99969713,0,data/processed/gf/gf_simmons_gf_globalcc_cnt_a40_n300.csv

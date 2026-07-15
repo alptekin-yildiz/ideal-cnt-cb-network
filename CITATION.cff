@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the accompanying paper."
+title: "ideal-cnt-cb-network: a stochastic reference generator for CNT/CB polymer networks"
+abstract: >-
+  Parameter-driven Monte Carlo generator that computes the ideal-network
+  percolation threshold, Simmons-weighted conductivity, and piezoresistive
+  gauge-factor response of CNT/CB polymer composites, reporting each quantity as
+  an ensemble mean with dispersion.
+type: software
+authors:
+  - family-names: "Karabal"
+    given-names: "Merve"
+    orcid: "https://orcid.org/0000-0002-0022-1714"
+  - family-names: "Yıldız"
+    given-names: "Alptekin"
+    orcid: "https://orcid.org/0000-0002-4801-2209"
+version: "0.1.0"
+date-released: "2026-07-23"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Stochastic Ideal-Network Reference for CNT/CB Polymer Composites: Diagnosing Departures in Percolation, Conductivity, and Piezoresistive Response"
+  authors:
+    - family-names: "Karabal"
+      given-names: "Merve"
+    - family-names: "Yıldız"
+      given-names: "Alptekin"
+  # journal, year, volume, and DOI to be completed at acceptance.
