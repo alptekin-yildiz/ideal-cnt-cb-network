@@ -35,4 +35,4 @@ This module deliberately re-exports nothing: import from the submodules
 listed above.
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"

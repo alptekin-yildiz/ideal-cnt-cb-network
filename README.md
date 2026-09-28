@@ -10,10 +10,14 @@ composite's departure from it can be read as a signed, mechanism-specific
 effect — agglomeration, non-universal tunneling transport, non-affine junction
 opening — rather than absorbed into adjustable parameters.
 
-Companion code for *A Stochastic Ideal-Network Reference for CNT/CB Polymer
-Composites: Diagnosing Departures in Percolation, Conductivity, and
-Piezoresistive Response* (M. Karabal, A. Yıldız).
-Each manuscript submission is archived as a frozen Zenodo snapshot; the concept DOI (added at first release) always resolves to the latest archived version.
+Companion code for M. Karabal, A. Yıldız, *A stochastic ideal-network reference
+for CNT/CB polymer composites: Diagnosing departures in percolation,
+conductivity, and piezoresistive response*, Computational Materials Science
+275 (2026) 115084, <https://doi.org/10.1016/j.commatsci.2026.115084>.
+The code version underlying the paper (v0.1.0) is archived on Zenodo as
+<https://doi.org/10.5281/zenodo.21382449>; the concept DOI
+<https://doi.org/10.5281/zenodo.21382448> always resolves to the latest archived
+version.
 
 ## Install
 
@@ -341,7 +345,20 @@ remain deterministic but are intentionally run only when regenerating
 
 ## Citing
 
-See [`CITATION.cff`](CITATION.cff). Please cite both the software and the paper.
+See [`CITATION.cff`](CITATION.cff). Please cite both the software and the paper:
+
+Karabal, M., & Yıldız, A. (2026). A stochastic ideal-network reference for
+CNT/CB polymer composites: Diagnosing departures in percolation, conductivity,
+and piezoresistive response. *Computational Materials Science*, 275, 115084.
+<https://doi.org/10.1016/j.commatsci.2026.115084>
+
+Karabal, M., & Yıldız, A. (2026). *ideal-cnt-cb-network: Stochastic
+ideal-network reference generator for CNT/CB polymer composites* [Computer
+software]. Zenodo. <https://doi.org/10.5281/zenodo.21382448>
+
+To reproduce the paper exactly, cite and use version 0.1.0,
+<https://doi.org/10.5281/zenodo.21382449>; its computational code is identical
+to version 1.0.0.
 
 The cluster-tracking idea used by the percolation kernels builds on the
 direction-cut method introduced in:

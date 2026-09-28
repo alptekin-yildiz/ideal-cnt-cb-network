@@ -1,0 +1,38 @@
+{
+  "title": "ideal-cnt-cb-network: Stochastic ideal-network reference generator for CNT/CB polymer composites",
+  "upload_type": "software",
+  "description": "<p>Parameter-driven Monte Carlo generator that computes the ideal-network percolation threshold, Simmons-weighted conductivity, and piezoresistive gauge-factor response of CNT/CB polymer composites, reporting each quantity as an ensemble mean with dispersion.</p><p>This deposit archives version 1.0.0, released at publication of the paper \"A stochastic ideal-network reference for CNT/CB polymer composites: Diagnosing departures in percolation, conductivity, and piezoresistive response\" (M. Karabal, A. Yıldız), Computational Materials Science 275 (2026) 115084, https://doi.org/10.1016/j.commatsci.2026.115084. The computational code is identical to version 0.1.0 (https://doi.org/10.5281/zenodo.21382449), the code version underlying the paper; version 1.0.0 adds the published article reference to the citation metadata.</p><p>The repository includes the source code (percolation, conductivity, and gauge-factor engines), reference output tables, and reproduction wrappers used to generate every figure and table in the paper.</p>",
+  "creators": [
+    {
+      "name": "Karabal, Merve",
+      "orcid": "0000-0002-0022-1714",
+      "affiliation": "Istanbul Technical University"
+    },
+    {
+      "name": "Yıldız, Alptekin",
+      "orcid": "0000-0002-4801-2209",
+      "affiliation": "Istanbul Technical University"
+    }
+  ],
+  "keywords": [
+    "carbon nanotube",
+    "carbon black",
+    "percolation threshold",
+    "Monte Carlo simulation",
+    "electrical conductivity",
+    "piezoresistivity",
+    "gauge factor",
+    "polymer nanocomposite"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.commatsci.2026.115084",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}

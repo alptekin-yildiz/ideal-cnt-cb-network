@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the accompanying paper."
-title: "ideal-cnt-cb-network: a stochastic reference generator for CNT/CB polymer networks"
+title: "ideal-cnt-cb-network: Stochastic ideal-network reference generator for CNT/CB polymer composites"
 abstract: >-
   Parameter-driven Monte Carlo generator that computes the ideal-network
   percolation threshold, Simmons-weighted conductivity, and piezoresistive
@@ -14,15 +14,30 @@ authors:
   - family-names: "Yıldız"
     given-names: "Alptekin"
     orcid: "https://orcid.org/0000-0002-4801-2209"
-version: "0.1.0"
-date-released: "2026-07-23"
+version: "1.0.0"
+date-released: "2026-09-28"
+doi: "10.5281/zenodo.21382448"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21382448"
+    description: "Concept DOI; always resolves to the latest archived version"
+  - type: doi
+    value: "10.5281/zenodo.21382449"
+    description: "Version DOI of v0.1.0, the code version underlying the paper"
+repository-code: "https://github.com/alptekin-yildiz/ideal-cnt-cb-network"
 license: MIT
 preferred-citation:
   type: article
-  title: "A Stochastic Ideal-Network Reference for CNT/CB Polymer Composites: Diagnosing Departures in Percolation, Conductivity, and Piezoresistive Response"
+  title: "A stochastic ideal-network reference for CNT/CB polymer composites: Diagnosing departures in percolation, conductivity, and piezoresistive response"
   authors:
     - family-names: "Karabal"
       given-names: "Merve"
+      orcid: "https://orcid.org/0000-0002-0022-1714"
     - family-names: "Yıldız"
       given-names: "Alptekin"
-  # journal, year, volume, and DOI to be completed at acceptance.
+      orcid: "https://orcid.org/0000-0002-4801-2209"
+  journal: "Computational Materials Science"
+  volume: 275
+  start: 115084
+  year: 2026
+  doi: "10.1016/j.commatsci.2026.115084"
